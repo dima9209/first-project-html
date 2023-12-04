@@ -1,0 +1,185 @@
+body {
+    color: #000;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+
+}
+
+.header-title {
+    color: #005FA3;
+    font-family: 'Merriweather';
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+.header-contact-link {
+    text-decoration: none;
+}
+
+.header-contact-text {
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.header-nav-link {
+    text-decoration: none;
+    color: #222;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+}
+
+.desc {
+    background-color: #191E22;
+    background-image: url(../img/first-screen-bkg.jpg);
+}
+
+.desc-title,
+.desc-link {
+    color: #FFF;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 66px;
+}
+
+
+
+.desc-link {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    background: #005FA3;
+}
+
+.service {
+    background: #EBEBEB;
+}
+
+.section-title {
+    color: #BDBDBD;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 33px;
+}
+
+.section-sub-title {
+    color: #333;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 69px;
+}
+
+.section-sub-title-blue {
+    color: #005FA3;
+}
+
+.service-item-link {
+    background-image: url(../img/services_bkg.jpg);
+    text-decoration: none;
+}
+
+.service-item-title {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.about-item {
+    background-color: #EBEBEB;
+}
+
+.about-item-num {
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+}
+.about-item-text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.about-item-link {
+    color: #005FA3;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+}
+.button {
+    color: #FFF;
+    font-weight: 400;
+    text-align: center;
+    background: #005FA3;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: none;
+}
+
+.review-item {
+    background-color: #EBEBEB ;
+}
+
+.review-item-text {
+    color: #000;
+}
+
+.review-item-author {
+    color: #000;
+    font-weight: 900;
+
+}
+
+.review-item-position {
+    color: #4F4F4F;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.advantage {
+    background-color: #EBEBEB;
+}
+
+.advantage-item-text {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.footer-bkg {
+    background-color: #161616;
+    color: #FFF;
+    background-image: url(../img/last-screen-bkg.jpg);
+}
+
+.white {
+    color: #FFF;
+}
+
+.footer-contact-link {
+    text-decoration: none;
+}
+.footer-contact-text {
+    font-size: 21px;
+    line-height: 29px;
+}
+
+.footer-text {
+    font-size: 14px;
+    line-height: 19px;
+}
