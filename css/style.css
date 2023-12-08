@@ -13,8 +13,35 @@ body {
     margin: 0 auto;
 }
 
+.d-flex {
+    display: flex;
+}
+
+.wrp-padding {
+    padding: 0 0 0 15px
+}
+.half-width {
+    width: 50%;
+}
+
 .header {
     padding: 23px 0 31px;
+}
+
+.header-abbreviated {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.header-contact-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-list {
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-title {
@@ -75,7 +102,9 @@ body {
     background: #005FA3;
     width: 333px;
     min-height: 84px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .service {
@@ -87,15 +116,26 @@ body {
     margin-bottom: 102px;
 }
 
+.service-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-item:nth-of-type(n+4) {
+    margin: 30px 0 0;
+}
+
 .service-item-link {
     background-image: url(../img/services_bkg.jpg);
     text-decoration: none;
-    display: block;
     width: 350px;
     min-height: 360px;
     padding: 45px;
     background-size: cover;
     box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
 }
 
 .service-item-title {
@@ -132,12 +172,26 @@ body {
     margin: 0 0 60px;
 }
 
+.about-desc {
+    width: 445px;
+}
+
+.about-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .about-item {
     background-color: #EBEBEB;
     width: 255px;
     min-height: 255px;
     padding: 30px 40px 40px ;
     box-sizing: border-box;
+}
+
+.about-item:nth-of-type(n+3) {
+    margin: 30px 0 0;
 }
 
 .about-item-num {
@@ -173,11 +227,21 @@ body {
 
 .partners {
     background-color: #EBEBEB;
-    padding: 85px 0 9 2px;
+    padding: 85px 0 92px;
 }
 
 .partners-sub-title {
     margin-bottom: 43px;
+}
+
+.partners-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.partners-item:nth-of-type(n+5) {
+    margin: 34px 0 0;
 }
 
 .desplay-none {
@@ -242,11 +306,30 @@ body {
 
 .advantage {
     background-color: #EBEBEB;
-    padding: 102px 0 116px;
+    padding: 102px 0 75px;
 }
 
 .advantage-sub-title {
-    margin-bottom: 103 px;
+    margin-bottom:  27px;
+}
+
+.advantage-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantage-item {
+    width: 348px;
+    min-height: 316px;
+    padding: 80px 0 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.advantage-img {
+    margin: 0 0 20px;
 }
 
 .advantage-item-text {
@@ -271,6 +354,7 @@ body {
 }
 
 .footer-quastions {
+    width: 410px;
     margin: 0 0 80px;
 }
 
@@ -288,6 +372,10 @@ body {
     line-height: 19px;
 }
 
+.footer-list {
+    display: flex;
+}
+
 .footer-butten {
     width: 270px;
     min-height: 60px;
@@ -296,4 +384,6 @@ body {
 
 .footer-about {
     padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
 }

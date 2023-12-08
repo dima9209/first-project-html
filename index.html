@@ -12,38 +12,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header container">
-        <img class="header-img" src="./img/logo.svg" alt="logo">
-        <p class="header-title">BuhOne</p>
-        <ul>
-            <li>
-                <a class="header-contact-link" href="tel:81112223344">
-                    <img src="./img/mobile.svg" alt="mobile">
-                    <span class="header-contact-text">8 (111) 222-33-44</span></a>
-            </li>
-            <li>
-                <img src="./img/watch.svg" alt="watch">
-                <span class="header-contact-text">Пн-Пт 10:00-18:00</span>
-            </li>
-            <li>
-                <a class="header-contact-link" href="mailto:order@buhone.ru">
-                    <img src="./img/envelope-blue.svg" alt="envelope-blue">
-                    <span class="header-contact-text">order@buhone.ru</span></a>
-            </li>
-            <li>
-                <img src="./img/point.svg" alt="point">
-                <span class="header-contact-text">Невский пр. 130</span>
-            </li>
-        </ul>
-        <nav>
-            <ul>
-                <li><a class="header-nav-link" href="#">Главная</a></li>
-                <li><a class="header-nav-link" href="#">услуги</a></li>
-                <li><a class="header-nav-link" href="#">кейсы</a></li>
-                <li><a class="header-nav-link" href="#">о компании</a></li>
-                <li><a class="header-nav-link" href="#">контакты</a></li>
+    <header class="header container d-flex">
+        <div class="half-width header-abbreviated">
+            <img class="header-img" src="./img/logo.svg" alt="logo">
+            <p class="header-title">BuhOne</p>
+        </div>
+        <div class="half-width">
+            <ul class="header-contact-list">
+                <li>
+                    <a class="header-contact-link" href="tel:81112223344">
+                        <img src="./img/mobile.svg" alt="mobile">
+                        <span class="header-contact-text">8 (111) 222-33-44</span></a>
+                </li>
+                <li>
+                    <img src="./img/watch.svg" alt="watch">
+                    <span class="header-contact-text">Пн-Пт 10:00-18:00</span>
+                </li>
+                <li>
+                    <a class="header-contact-link" href="mailto:order@buhone.ru">
+                        <img src="./img/envelope-blue.svg" alt="envelope-blue">
+                        <span class="header-contact-text">order@buhone.ru</span></a>
+                </li>
+                <li>
+                    <img src="./img/point.svg" alt="point">
+                    <span class="header-contact-text">Невский пр. 130</span>
+                </li>
             </ul>
-        </nav>
+            <nav>
+                <ul class="header-nav-list">
+                    <li><a class="header-nav-link" href="#">Главная</a></li>
+                    <li><a class="header-nav-link" href="#">услуги</a></li>
+                    <li><a class="header-nav-link" href="#">кейсы</a></li>
+                    <li><a class="header-nav-link" href="#">о компании</a></li>
+                    <li><a class="header-nav-link" href="#">контакты</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <section class="desc">
@@ -56,61 +60,60 @@
             <div class="container">
                 <h2 class="section-title">Наши услуги</h2>
                 <p class="section-sub-title service-sub-title">Мы специализируемся</p>
-                <ul>
-                    <li><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
-                    <li><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
-                    <li><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
-                    <li><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
-                    <li><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
-                    <li><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+                <ul class="service-list">
+                    <li class="service-item"><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+                    <li class="service-item"><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+                    <li class="service-item"><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+                    <li class="service-item"><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+                    <li class="service-item"><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+                    <li class="service-item"><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
                 </ul>
             </div>
         </section>
-        <section class="about container">
-            <h2 class="section-title">О нас</h2> 
-            <p class="section-sub-title about-sub-title">Компания <span class="section-sub-title-blue">ИвановПром</span></p>
-            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
-            <ul>
-                <li class="about-item">
-                    <p class="about-item-num">90</p>
-                    <h3 class="about-item-text">Завершено крупных сделок</h3>
-                    <a class="about-item-link" href="#">Все кейсы</a>
-                </li>
-                <li class="about-item">
-                    <p class="about-item-num">90</p>
-                    <h3 class="about-item-text">Завершено крупных сделок</h3>
-                    <a class="about-item-text" href="#">Все кейсы</a>
-                </li>
-                <li class="about-item">
-                    <p class="about-item-num">90</p>
-                    <h3 class="about-item-text">Завершено крупных сделок</h3>
-                    <a class="about-item-link" href="#">Все кейсы</a>
-                </li>
-                <li class="about-item">
-                    <p class="about-item-num">90</p>
-                    <h3 class="about-item-text">Завершено крупных сделок</h3>
-                    <a class="about-item-link" href="#">Все кейсы</a>
-                </li>
-                <li class="about-item">
-                    <p class="about-item-num">90</p>
-                    <p class="about-item-text">Завершено крупных сделок</p>
-                    <a class="about-item-link" href="#">Все кейсы</a>
-                </li>
-            </ul>
+        <section class="about container  d-flex">
+            <div class="half-width">
+                <h2 class="section-title">О нас</h2> 
+                <p class="section-sub-title about-sub-title">Компания <span class="section-sub-title-blue">ИвановПром</span></p>
+                <p class="about-desc">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
+            </div>
+            <div class="half-width wrp-padding">
+                <ul class="about-list">
+                    <li class="about-item">
+                        <p class="about-item-num">90</p>
+                        <h3 class="about-item-text">Завершено крупных сделок</h3>
+                        <a class="about-item-link" href="#">Все кейсы</a>
+                    </li>
+                    <li class="about-item">
+                        <p class="about-item-num">90</p>
+                        <h3 class="about-item-text">Завершено крупных сделок</h3>
+                        <a class="about-item-text" href="#">Все кейсы</a>
+                    </li>
+                    <li class="about-item">
+                        <p class="about-item-num">90</p>
+                        <h3 class="about-item-text">Завершено крупных сделок</h3>
+                        <a class="about-item-link" href="#">Все кейсы</a>
+                    </li>
+                    <li class="about-item">
+                        <p class="about-item-num">90</p>
+                        <h3 class="about-item-text">Завершено крупных сделок</h3>
+                        <a class="about-item-link" href="#">Все кейсы</a>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="partners">
             <div class="container">
                 <h2 class="section-title">Наши клиенты</h2>
                 <p class="section-sub-title partners-sub-title">С нами работают</p>
-                <ul>
-                    <li ><a href="#"><img src="./img/partners.png" alt="partners"></a></li>
-                    <li ><a href="#"><img src="./img/partners.png" alt="partners"></a></li>
-                    <li ><a href="#"><img src="./img/partners.png" alt="partners"></a></li>
-                    <li ><a href="#"><img src="./img/partners.png" alt="partners"></a></li>
-                    <li ><a href="#"><img src="./img/partners.png" alt="partners"></a></li>
-                    <li ><a href="#"><img src="./img/partners.png" alt="partners"></a></li>
-                    <li ><a href="#"><img src="./img/partners.png" alt="partners"></a></li>
-                    <li ><a href="#"><img src="./img/partners.png" alt="partners"></a></li>
+                <ul class="partners-list">
+                    <li class="partners-item"><a href="#"><img src="./img/partners.png" alt="partners"></a></li>
+                    <li class="partners-item"><a href="#"><img src="./img/partners.png" alt="partners"></a></li>
+                    <li class="partners-item"><a href="#"><img src="./img/partners.png" alt="partners"></a></li>
+                    <li class="partners-item"><a href="#"><img src="./img/partners.png" alt="partners"></a></li>
+                    <li class="partners-item"><a href="#"><img src="./img/partners.png" alt="partners"></a></li>
+                    <li class="partners-item"><a href="#"><img src="./img/partners.png" alt="partners"></a></li>
+                    <li class="partners-item"><a href="#"><img src="./img/partners.png" alt="partners"></a></li>
+                    <li class="partners-item"><a href="#"><img src="./img/partners.png" alt="partners"></a></li>
                 </ul>
             </div>
         </section>
@@ -157,17 +160,17 @@
             <div class="container">
                 <h2 class="section-title">Наши преимущетсва</h2>
                 <p class="section-sub-title advantage-sub-title">Мы предлагаем</p>
-                <ul>
-                    <li>
-                        <img src="./img/logo-quality.svg" alt="logo-quality">
+                <ul class="advantage-list">
+                    <li class="advantage-item">
+                        <img class="advantage-img" src="./img/logo-quality.svg" alt="logo-quality" width="132" height="126">
                         <p class="advantage-item-text">Качество</p>
                     </li>
-                    <li>
-                        <img src="./img/logo-speed.svg" alt="logo-speed">
+                    <li class="advantage-item">
+                        <img class="advantage-img" src="./img/logo-speed.svg" alt="logo-speed" width="132" height="126">
                         <p class="advantage-item-text">Оперативность</p>
                     </li>
-                    <li>
-                        <img src="./img/logo-expert.svg" alt="logo-expert">
+                    <li class="advantage-item">
+                        <img class="advantage-img" src="./img/logo-expert.svg" alt="logo-expert" width="132" height="126">
                         <p class="advantage-item-text">Экспертность</p>
                     </li>
                 </ul>
@@ -177,27 +180,29 @@
     <footer class="footer">
         <div class="footer-bkg">
             <div class="container">
-                <div>
-                    <h2 class=" footer-sub-title section-sub-title white">Связь с нами</h2>
-                    <p class="footer-quastions">У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
-                    <ul>
-                        <li>
-                            <a class="footer-contact-link" href="tel:+71112223344">
-                                <img src="./img/telephone.svg" alt="telephone">
-                                <span class="footer-contact-text">+7 (111) 222-33-44</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="footer-contact-link" href="mailto:order@bu-one.ru">
-                                <img src="./img/envelope.svg" alt="envelope">
-                                <span class="footer-contact-text">order@bu-one.ru</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    форма
-                    <button class="button footer-butten">Отправить сообщение</button>
+                <div class="d-flex">
+                    <div class="half-width">
+                        <h2 class=" footer-sub-title section-sub-title white">Связь с нами</h2>
+                        <p class="footer-quastions">У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
+                        <ul class="footer-list">
+                            <li>
+                                <a class="footer-contact-link" href="tel:+71112223344">
+                                    <img src="./img/telephone.svg" alt="telephone">
+                                    <span class="footer-contact-text">+7 (111) 222-33-44</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-contact-link" href="mailto:order@bu-one.ru">
+                                    <img src="./img/envelope.svg" alt="envelope">
+                                    <span class="footer-contact-text">order@bu-one.ru</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="half-width wrp-padding">
+                        форма
+                        <button class="button footer-butten">Отправить сообщение</button>
+                    </div>
                 </div>
             </div>
         </div>
