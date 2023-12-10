@@ -217,12 +217,13 @@ body {
 .button {
     color: #FFF;
     font-weight: 400;
-    text-align: center;
     background: #005FA3;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
     border: none;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .partners {
@@ -252,9 +253,20 @@ body {
     padding: 174px 0 120px;
 }
 
+.review-desc {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 80px;
+}
+
 .review-button {
     min-width: 270px;
     height: 60px;
+}
+
+.review-slider {
+    display: flex;
+    justify-content: space-between;
 }
 
 .review-slider-button {
@@ -266,6 +278,15 @@ body {
     border-radius: 50%;
     opacity: 0.4;
 }
+
+.review-slider-list {
+    width: 160px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
 .review-slider-arrow {
     width: 60px;
     height: 60px;
@@ -284,6 +305,8 @@ body {
 .review-item {
     background-color: #EBEBEB ;
     padding: 45px 95px;
+    margin: 0 0 50px;
+    box-sizing: border-box;
 }
 
 .review-item-text {
@@ -376,14 +399,107 @@ body {
     display: flex;
 }
 
-.footer-butten {
+.form-contact-wrp {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 35px;
+}
+
+.input-label {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0 0 15px;
+    color: #FFF;
+}
+
+input {
+    width: 255px;
+    padding: 4px 0 15px;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 29px;
+    color: #FFF;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color:#BDBDBD
+}
+
+textarea {
+    padding: 4px 0 15px;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    background-color: transparent;
+    width: 100%;
+    min-height: 105px;
+    box-sizing: border-box;
+    margin: 0 0 50px;
+    font-family: inherit;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 29px;
+    color: #FFF;
+}
+
+.form-butten {
+    display: block;
     width: 270px;
     min-height: 60px;
-    padding: 0;
+    margin: 0 0 0 auto;
 }
 
 .footer-about {
     padding: 50px 0;
     display: flex;
     justify-content: space-between;
+}
+
+/*.popap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+.popap-form {
+    width: 733px;
+    min-height: 636px;
+    padding: 55px 95px 69px;
+    background-color: #262626;
+    box-sizing: border-box;
+}
+
+.popap-form .section-sub-title {
+    color: #FFF;
+    margin: 0 0 64px;
+    text-align: center;
+}
+
+.popap-contact-wrp {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 18px;
+}
+
+.popap textarea {
+    margin: 0 0 34px;
+}
+
+.popap-button {
+    display: block;
+    width: 270px;
+    min-height: 60px;
+    margin: 0 auto 0 auto;
 }
